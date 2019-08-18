@@ -1,0 +1,8 @@
+Feature: As a user I should be able to create a task from activity stream
+  Scenario: Login
+    Given user should go to Btrix24 login page
+    Then user put right username and password
+    And click login button
+    And close browser
+
+    Scenario:
